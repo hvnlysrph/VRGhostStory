@@ -1,2 +1,3 @@
 # VRGhostStory
- Simple interactive ghost story - not too scary
+ Simple interactive VR ghost story - not too scary
+ Uses Oculus Integration asset and VRTK Package
