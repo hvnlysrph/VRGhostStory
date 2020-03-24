@@ -94,6 +94,10 @@ public class OrbInteraction : MonoBehaviour
             }
 
         }
+        else
+        {
+            anchorCamera = true;
+        }
     }
 
  
