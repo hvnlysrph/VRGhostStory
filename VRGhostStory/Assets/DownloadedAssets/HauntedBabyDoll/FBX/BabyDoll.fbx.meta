@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: 643aa463acf6a194e9ccbceed7f48f4d
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: BabyDoll
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: j_head
+  - first:
+      1: 100006
+    second: j_headEnd
+  - first:
+      1: 100008
+    second: j_l_clavicle
+  - first:
+      1: 100010
+    second: j_l_handEnd
+  - first:
+      1: 100012
+    second: j_l_shoulder
+  - first:
+      1: 100014
+    second: j_neck
+  - first:
+      1: 100016
+    second: j_r_arm
+  - first:
+      1: 100018
+    second: j_r_arm 1
+  - first:
+      1: 100020
+    second: j_r_clavicle
+  - first:
+      1: 100022
+    second: j_r_handEnd
+  - first:
+      1: 100024
+    second: j_r_shoulder
+  - first:
+      1: 100026
+    second: j_root
+  - first:
+      1: 100028
+    second: j_spine1
+  - first:
+      1: 100030
+    second: j_spine2
+  - first:
+      1: 100032
+    second: j_spine3
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: BabyDoll
+  - first:
+      4: 400004
+    second: j_head
+  - first:
+      4: 400006
+    second: j_headEnd
+  - first:
+      4: 400008
+    second: j_l_clavicle
+  - first:
+      4: 400010
+    second: j_l_handEnd
+  - first:
+      4: 400012
+    second: j_l_shoulder
+  - first:
+      4: 400014
+    second: j_neck
+  - first:
+      4: 400016
+    second: j_r_arm
+  - first:
+      4: 400018
+    second: j_r_arm 1
+  - first:
+      4: 400020
+    second: j_r_clavicle
+  - first:
+      4: 400022
+    second: j_r_handEnd
+  - first:
+      4: 400024
+    second: j_r_shoulder
+  - first:
+      4: 400026
+    second: j_root
+  - first:
+      4: 400028
+    second: j_spine1
+  - first:
+      4: 400030
+    second: j_spine2
+  - first:
+      4: 400032
+    second: j_spine3
+  - first:
+      43: 4300000
+    second: BabyDoll
+  - first:
+      74: 7400000
+    second: Breath -L-
+  - first:
+      74: 7400002
+    second: Haunted head Movement -L-
+  - first:
+      74: 7400004
+    second: Normal and Haunted body Movement (beginning)
+  - first:
+      74: 7400006
+    second: Normal and Haunted body Movement -L-
+  - first:
+      74: 7400008
+    second: Haunted Body Movement -L-
+  - first:
+      74: 7400010
+    second: Normal head movement -L-
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: BabyDoll
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Breath -L-
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm/j_l_handEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head/j_headEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Haunted head Movement -L-
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 51
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm/j_l_handEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head/j_headEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Normal and Haunted body Movement (beginning)
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 101
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm/j_l_handEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head/j_headEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Normal and Haunted body Movement -L-
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 121
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm/j_l_handEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head/j_headEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Haunted Body Movement -L-
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 201
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm/j_l_handEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head/j_headEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    - serializedVersion: 16
+      name: Normal head movement -L-
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 301
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BabyDoll
+        weight: 1
+      - path: j_root
+        weight: 1
+      - path: j_root/j_spine1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_l_clavicle/j_l_shoulder/j_r_arm/j_l_handEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_neck/j_head/j_headEnd
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1
+        weight: 1
+      - path: j_root/j_spine1/j_spine2/j_spine3/j_r_clavicle/j_r_shoulder/j_r_arm
+          1/j_r_handEnd
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BabyDoll(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BabyDoll
+      parentName: BabyDoll(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: j_root
+      parentName: BabyDoll(Clone)
+      position: {x: -0.009758119, y: -0.34113777, z: -2.3499389}
+      rotation: {x: 0.5831608, y: -0.40280378, z: 0.5804525, w: -0.40093318}
+      scale: {x: 0.9999995, y: 0.9999996, z: 1}
+    - name: j_spine1
+      parentName: j_root
+      position: {x: -1.5257558, y: -0.00042835504, z: 0.098395266}
+      rotation: {x: 0.0005968511, y: 0.0029969811, z: 0.101875275, w: 0.9947925}
+      scale: {x: 1.0000004, y: 0.99999994, z: 0.9999998}
+    - name: j_spine2
+      parentName: j_spine1
+      position: {x: -1.5431167, y: 4.440892e-15, z: 2.4980018e-16}
+      rotation: {x: -0.0006202572, y: 0.00003107032, z: 0.024254702, w: 0.9997057}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000005}
+    - name: j_spine3
+      parentName: j_spine2
+      position: {x: -1.4797435, y: -7.1054274e-15, z: -3.6082248e-16}
+      rotation: {x: 0.008726512, y: 0.000000014169926, z: -0.00000003011395, w: 0.999962}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000007}
+    - name: j_neck
+      parentName: j_spine3
+      position: {x: -1.0544778, y: -0.031736664, z: 0.0059618116}
+      rotation: {x: -0, y: -0, z: 1.7069675e-15, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000006}
+    - name: j_head
+      parentName: j_neck
+      position: {x: -0.9673572, y: -0.1197942, z: -0.030600572}
+      rotation: {x: 0.01574248, y: 0.0028340402, z: -0.095239244, w: -0.99532586}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000004}
+    - name: j_headEnd
+      parentName: j_head
+      position: {x: -3.70829, y: 9.769963e-15, z: 7.4246165e-16}
+      rotation: {x: 0.008726548, y: -0.00000005075707, z: 0.000000008112691, w: 0.9999619}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: j_l_clavicle
+      parentName: j_spine3
+      position: {x: -0.64793867, y: -0.14735757, z: -1.0792254}
+      rotation: {x: -0.43898898, y: 0.5269481, z: -0.61631924, w: -0.38699487}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: j_l_shoulder
+      parentName: j_l_clavicle
+      position: {x: -1.2188932, y: 3.7303494e-14, z: 1.64313e-14}
+      rotation: {x: -0.0049878787, y: -0.3340149, z: -0.57722735, w: 0.7451294}
+      scale: {x: 0.99999976, y: 1.0000002, z: 0.9999996}
+    - name: j_r_arm
+      parentName: j_l_shoulder
+      position: {x: -1.0394934, y: -2.422752, z: 0.9359641}
+      rotation: {x: 0.17169215, y: 0.5260627, z: 0.25639337, w: 0.7924912}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: j_l_handEnd
+      parentName: j_r_arm
+      position: {x: -3.1407778, y: 5.551115e-16, z: -9.325873e-15}
+      rotation: {x: -0, y: -0.000000029802319, z: 0.0000000074505797, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: j_r_clavicle
+      parentName: j_spine3
+      position: {x: -0.6594353, y: -0.11790156, z: 1.0758791}
+      rotation: {x: 0.4475168, y: -0.53324944, z: -0.6067118, w: -0.3837638}
+      scale: {x: 1.0000013, y: 1.0000002, z: 1.0000018}
+    - name: j_r_shoulder
+      parentName: j_r_clavicle
+      position: {x: -1.2189012, y: 1.5099033e-14, z: -2.6645353e-15}
+      rotation: {x: -0.6327365, y: -0.746721, z: -0.007938652, w: 0.20491317}
+      scale: {x: 0.99999976, y: 1.0000002, z: 0.99999905}
+    - name: j_r_arm 1
+      parentName: j_r_shoulder
+      position: {x: 1.0394875, y: -2.4227474, z: 0.93595815}
+      rotation: {x: 0.38234305, y: 0.7838082, z: 0.29805064, w: 0.38810354}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000006}
+    - name: j_r_handEnd
+      parentName: j_r_arm 1
+      position: {x: -3.1407814, y: -4.440892e-16, z: -1.7763568e-15}
+      rotation: {x: -0.0000005215406, y: -0.08715656, z: 0.00000013411044, w: 0.99619466}
+      scale: {x: 0.9999996, y: 1.0000001, z: 0.9999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 100
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,11 @@
+A glowing magical orb with a glittering trail of sparks and realtime light.
+
+Both static and animated versions are included, along with sound effects.
+
+Load the "Magic_Orb.unity" for an example scene, or drag either the Magic_Orb.prefab or Magic_Orb_OnPath.prefab assets from the Prefabs folder from the Project window into the Hierarchy window.
+
+Have fun!
+
+Thanks for purchasing this asset, please consider rating or writing a review about it. If you have any questions then please get in touch at bendurrant@rivermillstudios.com
+
+
